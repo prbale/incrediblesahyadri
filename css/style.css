@@ -703,7 +703,7 @@ h1, h2, h3, h4, h5,
     .main-content .photos .photo-item img {
       width: 100%;
       -o-object-fit: cover;
-      object-fit: cover;
+      object-fit: contain;
       height: 300px;
       margin-bottom: 20px; }
       @media (max-width: 575.98px) {
