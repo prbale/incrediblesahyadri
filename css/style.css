@@ -659,20 +659,7 @@ h1, h2, h3, h4, h5,
         padding-right: 15px; } }
   .main-content .photos .photo-item {
     position: relative; }
-    .main-content .photos .photo-item:after {
-      position: absolute;
-      content: "";
-      left: 0;
-      right: 0;
-      bottom: 0;
-      top: 0;
-      background: rgba(0, 0, 0, 0.6);
-      z-index: 1;
-      -webkit-transition: .3s all ease;
-      -o-transition: .3s all ease;
-      transition: .3s all ease;
-      opacity: 0;
-      visibility: hidden; }
+    
     .main-content .photos .photo-item .photo-text-more {
       position: absolute;
       z-index: 3;
