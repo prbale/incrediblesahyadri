@@ -468,13 +468,51 @@ pre {
   padding: 2px 16px;
 }
 
+/* -------------------- */
+/* Float four columns side by side */
+.columnitem {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowitem {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.rowitem:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (prefers-reduced-motion: reduce) {
+  .columnitem {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.w3-lobster {
+  font-family: "Lobster", serif;
+}
+
+.w3-tangerine {
+  font-family: "Tangerine", serif;
+}
+
+/* -------------------- */
+
+
 #banner-image {
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
     ),
-    url("../images/sahyadri_banner.jpg");
+    url("../images/banner3.jpg");
   background-size: cover;
   height: 50vh;
 }
