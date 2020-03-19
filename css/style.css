@@ -8046,7 +8046,7 @@ h1, h2, h3, h4, h5,
   color: #000000; }
 
 .blog-entry {
-  margin-bottom: 6em; }
+  margin-bottom: 3em; }
   .blog-entry .img {
     display: block;
     height: 400px; }
@@ -8618,7 +8618,7 @@ textarea.form-control {
   stroke-linecap: round; }
 
 .fort-entry {
-    margin-bottom: 6em; }
+    margin-bottom: 3em; }
     .fort-entry .img {
       display: block;
       height: 200px; }
