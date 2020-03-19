@@ -5035,6 +5035,9 @@ button.bg-secondary:hover,
 button.bg-secondary:focus {
   background-color: #545b62 !important; }
 
+.bg-plain {
+    background-color: #ffffff !important; }
+
 .bg-success {
   background-color: #d5f1db !important; }
 
