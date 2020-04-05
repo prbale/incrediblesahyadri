@@ -5,3 +5,6 @@ https://platform.sharethis.com/sticky-share-buttons
 
 Amruteshwar Temple:
 https://www.loksatta.com/trekit-news/amruteshwar-temple-in-bhandardara-1114703/
+
+Nice structured information
+https://thrillbear.com/harishchandragad-trek-via-pachnai/
