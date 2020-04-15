@@ -1,69 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Increible Sahyadri</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="../../../css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="../../../css/animate.css">
-    <link rel="stylesheet" href="../../../css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../../../css/magnific-popup.css">
-    <link rel="stylesheet" href="../../../css/aos.css">
-    <link rel="stylesheet" href="../../../css/ionicons.min.css">
-    <link rel="stylesheet" href="../../../css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="../../../css/jquery.timepicker.css">
-    <link rel="stylesheet" href="../../../css/flaticon.css">
-    <link rel="stylesheet" href="../../../css/icomoon.css">
-    <link rel="stylesheet" href="../../../css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e84ffc301a7a10012f42105&product=sticky-share-buttons&cms=sop' async='async'></script>
+<head>
+  <title>Increible Sahyadri</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="../../../css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="../../../css/animate.css">
+  <link rel="stylesheet" href="../../../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../../../css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../../../css/magnific-popup.css">
+  <link rel="stylesheet" href="../../../css/aos.css">
+  <link rel="stylesheet" href="../../../css/ionicons.min.css">
+  <link rel="stylesheet" href="../../../css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="../../../css/jquery.timepicker.css">
+  <link rel="stylesheet" href="../../../css/flaticon.css">
+  <link rel="stylesheet" href="../../../css/icomoon.css">
+  <link rel="stylesheet" href="../../../css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e84ffc301a7a10012f42105&product=sticky-share-buttons&cms=sop' async='async'></script>
+  <style>
+    * {
+      box-sizing: border-box
+    }
 
-  </head>
+    .mySlides1,
+    .mySlides2 {
+      display: none
+    }
 
-  <body style="background-color: #6c757d!important">
-    <div id="colorlib-page">
-      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle">
-        <i></i>
-      </a>
+    img {
+      vertical-align: middle;
+    }
 
-      <!-- Side Bar : Start -->
-      <aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
-        <h1 id="colorlib-logo">
-          <a href="../../../index.html">
-            <img src="../../../images/mountain.png" height="72" width="72"><br>Incredible Sahyadri
-          </a>
-        </h1>
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
 
-        <nav id="colorlib-main-menu" role="navigation">
-          <ul>
-            <li class="colorlib-active"><a href="../../../index.html">Home</a></li>
-            <li><a href="../../../gallery.html">Gallery</a></li>
-            <li><a href="../../../about.html">About</a></li>
-            <li><a href="../../../blog.html">Blog</a></li>
-            <li><a href="../../../contact.html">Contact</a></li>
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a grey background color */
+    .prev:hover,
+    .next:hover {
+      background-color: #f1f1f1;
+      color: black;
+    }
+  </style>
+</head>
+
+<body style="background-color: #6c757d!important">
+  <div id="colorlib-page">
+    <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle">
+      <i></i>
+    </a>
+
+    <!-- Side Bar : Start -->
+    <aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+      <h1 id="colorlib-logo">
+        <a href="../../../index.html">
+          <img src="../../../images/mountain.png" height="72" width="72"><br>Incredible Sahyadri
+        </a>
+      </h1>
+
+      <nav id="colorlib-main-menu" role="navigation">
+        <ul>
+          <li class="colorlib-active"><a href="../../../index.html">Home</a></li>
+          <li><a href="../../../gallery.html">Gallery</a></li>
+          <li><a href="../../../about.html">About</a></li>
+          <li><a href="../../../blog.html">Blog</a></li>
+          <li><a href="../../../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="colorlib-footer">
+        <h3>Follow Us Here!</h3>
+        <div class="d-flex justify-content-center">
+          <ul class="d-flex align-items-center">
+            <li class="d-flex align-items-center jusitfy-content-center"><a href="https://www.facebook.com/prashant.bale"><i class="icon-facebook"></i></a></li>
+            <li class="d-flex align-items-center jusitfy-content-center"><a href="https://twitter.com/Prash_Bale"><i class="icon-twitter"></i></a></li>
+            <li class="d-flex align-items-center jusitfy-content-center"><a href="https://www.instagram.com/prashant_bale/"><i class="icon-instagram"></i></a></li>
+            <li class="d-flex align-items-center jusitfy-content-center"><a href="https://www.linkedin.com/in/prashant-bale-5515ab27/"><i class="icon-linkedin"></i></a></li>
           </ul>
-        </nav>
-
-        <div class="colorlib-footer">
-          <h3>Follow Us Here!</h3>
-          <div class="d-flex justify-content-center">
-            <ul class="d-flex align-items-center">
-              <li class="d-flex align-items-center jusitfy-content-center"><a href="https://www.facebook.com/prashant.bale"><i class="icon-facebook"></i></a></li>
-              <li class="d-flex align-items-center jusitfy-content-center"><a href="https://twitter.com/Prash_Bale"><i class="icon-twitter"></i></a></li>
-              <li class="d-flex align-items-center jusitfy-content-center"><a href="https://www.instagram.com/prashant_bale/"><i class="icon-instagram"></i></a></li>
-              <li class="d-flex align-items-center jusitfy-content-center"><a href="https://www.linkedin.com/in/prashant-bale-5515ab27/"><i class="icon-linkedin"></i></a></li>
-            </ul>
-          </div>
         </div>
-      </aside>
-      <!-- Side Bar : End  -->
+      </div>
+    </aside>
+    <!-- Side Bar : End  -->
 
     <div id="colorlib-main" style="margin-top: 1px;">
 
@@ -85,27 +139,38 @@
 
         <div class="container">
 
-            <!-- Banner Image -->
-            <img src="banner.jpg" style="width: 80%">
+          <!-- Banner Images -->
+          <div class="slideshow-container">
+            <div class="mySlides1">
+              <img src="banner.jpg" style="width: 100%; height: auto;">
+            </div>
+            <div class="mySlides1">
+              <img src="banner1.jpg" style="width: 100%; height: auto;">
+            </div>
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+          </div>
 
-            <div style="margin-top: 20px;">
+          <!--============================================================= -->
 
-            <!--============================================================= -->
+          <div style="margin-top: 20px;">
 
-              <p><strong>Burhanpur tour COST:&nbsp;Rs. 4950/- pp&nbsp;</strong></p>
-              <p><strong>&amp; would include:</strong></p>
-              <ol>
-              <li>Travel from Mumbai &ndash; Mumbai by Train (SL-Class)</li>
-              <li>Accommodation in tripple sharing basis</li>
-              <li>Sightseeing around&nbsp;Burhanpur&nbsp;by Non-AC local transport</li>
-              <li>Food for 2 days ( Train Journey Dinner excluded)</li>
-              <li>All Entry Fees and Guide Charges (Except camera fee if any)</li>
-              <li>Shikhar Vedh Administrative charges</li>
-              </ol>
-              <p>&nbsp;</p>
-              <p><strong>About the places -</strong></p>
-              <p><strong>BURHANPUR ::</strong>&nbsp;The Historic city of&nbsp;Burhanpur&nbsp;is famous for its many beautiful monuments that lie scattered across the city. Most of the monuments lie in a state of ruins but they give us a fine idea of the grandeur of the Mughal Rule. The city was considered to be the Gateway to the South. A lesser known fact about the city is that Mumtaz Mahal breathed her last in this city and was entombed across the river Tapti before her tomb was shifted to The Taj Mahal in Agra.</p>
-              <p>&nbsp;</p>
+            <p><strong>Burhanpur tour COST:&nbsp;Rs. 4950/- pp&nbsp;</strong></p>
+
+            <!-- About -->
+            <p><strong>About:</strong></p>
+            <div class="card" style="padding:10px; background-color: #f8f9fa!important">
+              <p><strong>BURHANPUR ::</strong>&nbsp;The Historic city of&nbsp;Burhanpur&nbsp;is famous for its many beautiful monuments that lie scattered across the city. Most of the monuments lie in a state of ruins but they give us a fine idea of
+                the grandeur of the Mughal Rule. The city was considered to be the Gateway to the South. A lesser known fact about the city is that Mumtaz Mahal breathed her last in this city and was entombed across the river Tapti before her tomb
+                was
+                shifted to The Taj Mahal in Agra.</p>
+            </div>
+            <br />
+            <br />
+
+            <!-- Itinirary -->
+            <p><strong>Rendezvous:</strong></p>
+            <div class="card" style="padding:10px; background-color: #f8f9fa!important">
               <p><strong>Rendezvous:&nbsp;Lokmanya Tilak Terminus (LTT) @ 22:00 Hrs on Friday</strong></p>
               <p><strong>The itinerary for the event is given below:</strong></p>
               <p><strong>Day 0: Friday&nbsp;</strong><strong><br /></strong></p>
@@ -124,117 +189,156 @@
               <p>Return journey to Mumbai by Kushinagar express</p>
               <p><strong><br /></strong><strong>Day 3: Monday</strong></p>
               <p>04:30 Hrs :: Reach LTT</p>
-              <p>&nbsp;</p>
+            </div>
+            <br />
+            <br />
+
+            <p><strong>Fee:</strong></p>
+            <div class="card" style="padding:10px; background-color: #f8f9fa!important">
               <p><strong>The cost for two days Burhanpur tour only&nbsp;would be&nbsp;Rs. 4950/- per person&nbsp;</strong></p>
-              <p><strong>&amp; would include:</strong></p>
               <ol>
-              <li>Travel from Mumbai &ndash; Mumbai by Train (SL-Class)</li>
-              <li>Accommodation in tripple sharing basis</li>
-              <li>Sightseeing around&nbsp;Burhanpur&nbsp;by Non-AC local transport</li>
-              <li>Food for 2 days ( Train Journey Dinner excluded)</li>
-              <li>All Entry Fees and Guide Charges (Except camera fee if any)</li>
-              <li>Shikhar Vedh Administrative charges</li>
+                <li>Travel from Mumbai &ndash; Mumbai by Train (SL-Class)</li>
+                <li>Accommodation in tripple sharing basis</li>
+                <li>Sightseeing around&nbsp;Burhanpur&nbsp;by Non-AC local transport</li>
+                <li>Food for 2 days ( Train Journey Dinner excluded)</li>
+                <li>All Entry Fees and Guide Charges (Except camera fee if any)</li>
+                <li>Shikhar Vedh Administrative charges</li>
               </ol>
               <p><strong>Note:</strong>&nbsp;One has to pay&nbsp;<strong>Rs 2500/- (non-refundable)</strong>&nbsp;in advance to register for this event.</p>
-              <p>&nbsp;</p>
-              <p><strong>Name: Jagadish Govind Patil<br /></strong></p>
-              <p><strong>A/C No: 026801521464</strong></p>
-              <p><strong>A/C Type: Savings</strong></p>
-              <p><strong>Bank &amp; Branch: ICICI BANK, Vartaknagar &ndash; Thane Branch</strong></p>
-              <p><strong>RTGS / IFSC Code: ICIC0000268</strong></p>
+            </div>
+            <br />
+            <br />
+
+            <!-- Account Information -->
+            <p><strong>Account Information:</strong></p>
+            <div class="card" style="padding:10px; background-color: #f8f9fa!important">
+              <p><strong>Name</strong>: Jagadish Govind Patil<br /></p>
+              <p><strong>A/C No</strong>: 026801521464</p>
+              <p><strong>A/C Type</strong>: Savings</p>
+              <p><strong>Bank &amp; Branch</strong>: ICICI BANK, Vartaknagar &ndash; Thane Branch</p>
+              <p><strong>RTGS / IFSC Code</strong>: ICIC0000268</p>
               <p>OR</p>
               <p><strong>Googlepay : 9702121373</strong></p>
-              <p><strong>&nbsp;</strong></p>
               <p><strong>Last date to confirm with advance payment is till the train tickets are&nbsp;</strong><strong>available</strong></p>
-              <p><strong><br />Here is a list of the things to be carried by every individual -</strong></p>
-              <p>&gt; A haversack to put in all the stuffs</p>
-              <p>&gt; At least 2 Liters of water<br />&gt; Two-three set of clothes, Towel / Napkin<br />&gt; Binoculars, Camera, Something to munch on (Optional)<br />&gt; Torch with extra set of batterries<br />&gt; Personal medicines required if any<br />&gt; Identity Proof</p>
-              <p>&nbsp;</p>
-              <p><strong>To register for this event, contact us &ndash;&nbsp;</strong></p>
-              <p><strong>Jagdish Patil: 9702121373 /&nbsp;</strong><strong>9869369836<br /></strong></p>
-              <p>Also join us @<br /><strong>Facebook Group:</strong>&nbsp;<a href="https://www.facebook.com/home.php?sk=group_181834891865933&amp;ap=1" data-saferedirecturl="https://www.google.com/url?q=https://www.facebook.com/home.php?sk%3Dgroup_181834891865933%26ap%3D1&amp;source=gmail&amp;ust=1574798578339000&amp;usg=AFQjCNFtMwRBdxZWV29-4ypdfw_3gE6DYw">https://www.facebook.com/groups/shikharvedh/</a></p>
-              <p><strong>Website:</strong>&nbsp;<a href="http://shikharvedh.org/" data-saferedirecturl="https://www.google.com/url?q=http://shikharvedh.org/&amp;source=gmail&amp;ust=1574798578339000&amp;usg=AFQjCNHPEY6V843ebrhKKX9RHJsAbqnpxg">http://shikharvedh.org/</a></p>
-              <p>&nbsp;</p>
+            </div>
+            <br />
+            <br />
 
+            <p><strong>Things to Carry:</strong></p>
+            <div class="card" style="padding:10px; background-color: #f8f9fa!important">
+              <p><strong>Here is a list of the things to be carried by every individual</strong></p>
+              <ul>
+                <li>A haversack to put in all the stuffs</li>
+                <li>At least 2 Liters of water</li>
+                <li>Two-three set of clothes, Towel / Napkin</li>
+                <li>Binoculars, Camera, Something to munch on (Optional)</li>
+                <li>Torch with extra set of batterries</li>
+                <li>Personal medicines required if any</li>
+                <li>Identity Proof</li>
+              </ul>
+            </div>
+            <br />
+            <br />
+
+            <div class="w3-container w3-card w3-white w3-round w2-margin"><br>
+              <img src="../../../images/group.jpg" alt="Group Name" class="w3-left w3-circle w3-margin-right" style="width:60px">
+              <span class="w3-center w3-opacity">Trekking Organization</span>
+              <h4>Shikharvedh</h4><br>
+              <p>SHIKHAR VEDH - 'SV' is an organisation open for all enthusiasts who just love adventures, had an eye for exploring known & unknown path, passion for Treks.</p>
+              <hr class="w3-clear">
+              <p style="text-align: center;">वेड लावतो सर्वांना सह्याद्रीचा कडा,<br />
+                सर करण्यास महाराष्ट्राचा प्रत्येक गड अन किल्ला,<br />
+                रोखुनी नजर शिखराकडे पाहतो प्रत्येक जन येत जाता,<br />
+                पण शिखर वेध लाभले ज्याला, त्याने गाठले शिखराला<br />
+                –शिखर वेध</p><br />
+              <p><b>Website</b>: <a href="http://www.shikharvedh.org/">http://www.shikharvedh.org/</a></p>
+              <p><b>Email</b>: shikharvedh@gmail.com</p>
+              <p><b>Contact</b>: Jagdish Patil: 9702121373 / 9869369836</p>
+              <p><b>Facebook Group</b>: <a href="Facebook Group: https://www.facebook.com/groups/shikharvedh/">https://www.facebook.com/groups/shikharvedh/</a></p>
+            </div>
             <!--============================================================= -->
 
           </div>
 
-        </div>
-
       </section>
 
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container px-md-5">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Category</h2>
-              <ul class="list-unstyled categories">
-                <li><a href="../../../forts_list.html">Forts <span>(9)</span></a></li>
-                <li><a href="../../../temples_list.html">Temples <span>(6)</span></a></li>
-                <li><a href="../../../caves_list.html">Caves <span>(6)</span></a></li>
-                <li><a href="../../../waterfalls_list.html">Waterfalls <span>(6)</span></a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
-              <div class="block-23 mb-3">
-                <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">Pune, Maharashtra, India</span></li>
-                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 8530669827</span></a></li>
-                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@incrediblesahyadri.com</span></a></li>
+      <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container px-md-5">
+          <div class="row mb-5">
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4 ml-md-4">
+                <h2 class="ftco-heading-2">Category</h2>
+                <ul class="list-unstyled categories">
+                  <li><a href="../../../forts_list.html">Forts <span>(9)</span></a></li>
+                  <li><a href="../../../temples_list.html">Temples <span>(6)</span></a></li>
+                  <li><a href="../../../caves_list.html">Caves <span>(6)</span></a></li>
+                  <li><a href="../../../waterfalls_list.html">Waterfalls <span>(6)</span></a></li>
                 </ul>
               </div>
             </div>
+
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Have a Questions?</h2>
+                <div class="block-23 mb-3">
+                  <ul>
+                    <li><span class="icon icon-map-marker"></span><span class="text">Pune, Maharashtra, India</span></li>
+                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 8530669827</span></a></li>
+                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@incrediblesahyadri.com</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-md-12">
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          <div class="row">
+            <div class="col-md-12">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
           </div>
+
         </div>
+      </footer>
 
-      </div>
-  </footer>
-
-  </div><!-- END COLORLIB-MAIN -->
+    </div><!-- END COLORLIB-MAIN -->
   </div><!-- END COLORLIB-PAGE -->
 
-    <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen">
-      <svg class="circular" width="48px" height="48px">
-        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
-        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
-      </svg>
-    </div>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+    </svg>
+  </div>
 
-    <script src="../../../js/jquery.min.js"></script>
-    <script src="../../../js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="../../../js/popper.min.js"></script>
-    <script src="../../../js/bootstrap.min.js"></script>
-    <script src="../../../js/jquery.easing.1.3.js"></script>
-    <script src="../../../js/jquery.waypoints.min.js"></script>
-    <script src="../../../js/jquery.stellar.min.js"></script>
-    <script src="../../../js/owl.carousel.min.js"></script>
-    <script src="../../../js/jquery.magnific-popup.min.js"></script>
-    <script src="../../../js/aos.js"></script>
-    <script src="../../../js/jquery.animateNumber.min.js"></script>
-    <script src="../../../js/bootstrap-datepicker.js"></script>
-    <script src="../../../js/jquery.timepicker.min.js"></script>
-    <script src="../../../js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="../../../js/google-map.js"></script>
-    <script src="../../../js/main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="../../../js/jquery.min.js"></script>
+  <script src="../../../js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../../../js/popper.min.js"></script>
+  <script src="../../../js/bootstrap.min.js"></script>
+  <script src="../../../js/jquery.easing.1.3.js"></script>
+  <script src="../../../js/jquery.waypoints.min.js"></script>
+  <script src="../../../js/jquery.stellar.min.js"></script>
+  <script src="../../../js/owl.carousel.min.js"></script>
+  <script src="../../../js/jquery.magnific-popup.min.js"></script>
+  <script src="../../../js/aos.js"></script>
+  <script src="../../../js/jquery.animateNumber.min.js"></script>
+  <script src="../../../js/bootstrap-datepicker.js"></script>
+  <script src="../../../js/jquery.timepicker.min.js"></script>
+  <script src="../../../js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="../../../js/google-map.js"></script>
+  <script src="../../../js/main.js"></script>
+  <script src="../../../js/slideshow.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-  </body>
+</body>
+
 </html>
