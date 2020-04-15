@@ -22,8 +22,65 @@
     <link rel="stylesheet" href="../../../css/icomoon.css">
     <link rel="stylesheet" href="../../../css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e84ffc301a7a10012f42105&product=sticky-share-buttons&cms=sop' async='async'></script>
 
     <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e84ffc301a7a10012f42105&product=sticky-share-buttons&cms=sop' async='async'></script>
+
+    <style>
+      * {
+        box-sizing: border-box
+      }
+
+      .mySlides1,
+      .mySlides2 {
+        display: none
+      }
+
+      img {
+        vertical-align: middle;
+      }
+
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      /* On hover, add a grey background color */
+      .prev:hover,
+      .next:hover {
+        background-color: #f1f1f1;
+        color: black;
+      }
+    </style>
 
   </head>
 
@@ -85,19 +142,35 @@
 
         <div class="container">
 
-            <!-- Banner Image -->
-            <img src="banner.jpg">
+            <!-- Banner Images -->
+            <div class="slideshow-container">
+              <div class="mySlides1">
+                <img src="banner.jpg" style="width: 100%; height: auto;">
+              </div>
+              <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+            </div>
 
             <!--============================================================= -->
 
             <div style="margin-top: 20px;">
-            <p><strong>Shikhar Vedh</strong>&nbsp;invites u all for a&nbsp;<strong>Heritage tour to Hampi, Pattadakal , Ainhole &amp; Badami</strong></p>
-            </div>
-            <p><strong>Hampi</strong>&nbsp;is nestled within the ruins of medieval city of Vijayanagar in the state of Karnataka, on the banks of the Tungabhadra river. Set in a surreal and beautiful boulder-strewn landscape, Vijayanagara (the City of Victory) is a UNESCO World Heritage Site and although the city was destroyed by marauding Moghul invaders in the 16th century, much of it remains today. Enjoy sightseeing tour of the ancient ruins that are spread over 26 sq km area, many of which lie in and around Hampi Bazaar and the nearby riverside area, which also encompasses the city&rsquo;s most sacred enclave of temples and ghats. East of Hampi Bazaar is the UNESCO-listed 16th century Vittala Temple, the undisputed highlight of the ruins.</p>
-            <p><strong>Badami&nbsp;</strong>Boasting about the Buddhist architecture and sculptures of Lord Vishnu, the Badami Caves are majestic and sure to mesmerize you with its massive boulders: The caves overlook Agastya Lake and many small hillocks that carry a hypnotic charm. Enroute, if you&rsquo;re lucky enough you&rsquo;ll spot sun-flower fields making your journey worth-while.</p>
-            <p><strong>Pattadakal</strong>&nbsp;&ndash; a World Heritage Site, has 10 major temples representing early Chalukaya architecture, the biggest of which is dedicated to lord Virupakshesvara.</p>
-            <p><strong>Aihole,</strong>&nbsp;which is known as the &ldquo;Cradle of Indian Architecture&rdquo;, has over a hundred temples scattered around the village</p>
-            <div>&nbsp;</div>
+
+              <!-- About -->
+              <p><strong>About:</strong></p>
+              <div class="card" style="padding:10px; background-color: #f8f9fa!important">
+                <p><strong>Shikhar Vedh</strong>&nbsp;invites u all for a&nbsp;<strong>Heritage tour to Hampi, Pattadakal , Ainhole &amp; Badami</strong></p>
+                <p><strong>Hampi</strong>&nbsp;is nestled within the ruins of medieval city of Vijayanagar in the state of Karnataka, on the banks of the Tungabhadra river. Set in a surreal and beautiful boulder-strewn landscape, Vijayanagara (the City of Victory) is a UNESCO World Heritage Site and although the city was destroyed by marauding Moghul invaders in the 16th century, much of it remains today. Enjoy sightseeing tour of the ancient ruins that are spread over 26 sq km area, many of which lie in and around Hampi Bazaar and the nearby riverside area, which also encompasses the city&rsquo;s most sacred enclave of temples and ghats. East of Hampi Bazaar is the UNESCO-listed 16th century Vittala Temple, the undisputed highlight of the ruins.</p>
+                <p><strong>Badami&nbsp;</strong>Boasting about the Buddhist architecture and sculptures of Lord Vishnu, the Badami Caves are majestic and sure to mesmerize you with its massive boulders: The caves overlook Agastya Lake and many small hillocks that carry a hypnotic charm. Enroute, if you&rsquo;re lucky enough you&rsquo;ll spot sun-flower fields making your journey worth-while.</p>
+                <p><strong>Pattadakal</strong>&nbsp;&ndash; a World Heritage Site, has 10 major temples representing early Chalukaya architecture, the biggest of which is dedicated to lord Virupakshesvara.</p>
+                <p><strong>Aihole,</strong>&nbsp;which is known as the &ldquo;Cradle of Indian Architecture&rdquo;, has over a hundred temples scattered around the village</p>
+              </div>
+              <br />
+              <br />
+
+              <!-- Itinirary -->
+              <p><strong>Rendezvous:</strong></p>
+              <div class="card" style="padding:10px; background-color: #f8f9fa!important">
+
             <div>
             <p><em><strong>Itinerary of the tour ::</strong></em></p>
             <p><strong>Day 0 &ndash; Thursday 24 October 2019</strong></p>
@@ -121,8 +194,15 @@
             <p>By Evening 5:30 pm Board the bus to Mumbai</p>
             <p><strong>Day 4 &ndash; Monday 28 October 2019</strong></p>
             <p>08:00 Hrs : @ Mumbai</p>
-            <p>&nbsp;</p>
+
             </div>
+          </div>
+          <br />
+          <br />
+
+          <p><strong>Fee:</strong></p>
+          <div class="card" style="padding:10px; background-color: #f8f9fa!important">
+
             <p><strong>Tour Fees would be approximately&nbsp;Rs. 7500/- per Head</strong>&nbsp;</p>
             <p>which includes&nbsp;</p>
             <p><strong><em>1) Local Transportation for 3 days Hospet to Hospet for Sightseeing Hampi &ndash; Badami &ndash;&nbsp;Pattadakal&nbsp;&ndash; Aihole</em></strong></p>
@@ -131,14 +211,48 @@
             <p><strong><em>4) Entry Fees &amp; Guide charges</em></strong></p>
             <p><strong><em>5) Shikhar Vedh Administrative Charges</em></strong></p>
             <p><br />Deposit&nbsp;<strong>Rs. 4500/- per head (Non-refundable)</strong>&nbsp;on following A/c for Travel / Hotel booking</p>
-            <p><br /><strong>Name: JAGADISH GOVIND PATIL<br />ICICI Bank A/c No.: &ndash; 026801521464</strong><strong>&nbsp;</strong><strong><br />Vartak Nagar Branch, Thane (W)</strong><strong><br />Ifsc code: ICIC0000268</strong></p>
-            <p><strong>Last date for registration: &ndash; 8 days prior to departure</strong><strong>&nbsp;OR Till the batch gets full</strong><br /><br /></p>
-            <p><strong>NOTE ::&nbsp;MUMBAI &ndash; HOSPET &ndash; MUMBAI Bus Fare&nbsp;( ~ Rs 4000/- pp)&nbsp;to b borne by participant</strong></p>
-            <p><br /><strong>Things To Carry:-</strong><br /><br /><strong>A Water Bottle (~2 Ltrs) (A must)<br />1 torch (a must) with spare&nbsp;batteries&nbsp;( a must)<br />Rain-cheater (a must)</strong><br />Camera, Cell Phone, Binoculars (Optional)<br />Pls avoid wearing Gold and other ornaments<br />Some ready to eat food. Plum cakes, biscuits etc.<br />Extra Pair of clothes,<br />Good trekking shoes preferably ACTION,<br />Personal basic medical kit (Containing an antiseptic, few bandages, personal medications if any, Antibiotics for stomach infection)<br />A haversack to put all these things<br /><br /><strong>For confirmation, do call on below no or reply here</strong></p>
-            <p><strong>Jagdish Patil : 09702121373 / 09869369836</strong><br /><br />Also join us @<br /><br /><strong>Facebook Group:</strong>&nbsp;<a href="https://www.facebook.com/groups/shikharvedh/" data-saferedirecturl="https://www.google.com/url?q=https://www.facebook.com/groups/shikharvedh/&amp;source=gmail&amp;ust=1559072673307000&amp;usg=AFQjCNFkAJY0JXwOc-Ds7uWsSp6xHnO2kA">https://www.facebook.com/groups/shikharvedh/</a></p>
-            <p><strong>Website:</strong>&nbsp;<a href="http://shikharvedh.org/" data-saferedirecturl="https://www.google.com/url?q=http://shikharvedh.org/&amp;source=gmail&amp;ust=1559072673307000&amp;usg=AFQjCNG--PnXt2rW4riJSZ8YV5XVs2o12w">http://shikharvedh.org/</a></p>
-            <p>&nbsp;</p>
+            </div>
+            <br />
+            <br />
 
+            <!-- Account Information -->
+            <p><strong>Account Information:</strong></p>
+            <div class="card" style="padding:10px; background-color: #f8f9fa!important">
+              <p><strong>Name</strong>: Jagadish Govind Patil<br /></p>
+              <p><strong>A/C No</strong>: 026801521464</p>
+              <p><strong>A/C Type</strong>: Savings</p>
+              <p><strong>Bank &amp; Branch</strong>: ICICI BANK, Vartaknagar &ndash; Thane Branch</p>
+              <p><strong>RTGS / IFSC Code</strong>: ICIC0000268</p>
+              <p>OR</p>
+              <p><strong>Googlepay : 9702121373</strong></p>
+              <p><strong>Last date to confirm with advance payment is till the train tickets are&nbsp;</strong><strong>available</strong></p>
+            </div>
+            <br />
+            <br />
+
+            <p><strong>Things to Carry:</strong></p>
+            <div class="card" style="padding:10px; background-color: #f8f9fa!important">
+              <strong>A Water Bottle (~2 Ltrs) (A must)<br />1 torch (a must) with spare&nbsp;batteries&nbsp;( a must)<br />Rain-cheater (a must)</strong><br />Camera, Cell Phone, Binoculars (Optional)<br />Pls avoid wearing Gold and other ornaments<br />Some ready to eat food. Plum cakes, biscuits etc.<br />Extra Pair of clothes,<br />Good trekking shoes preferably ACTION,<br />Personal basic medical kit (Containing an antiseptic, few bandages, personal medications if any, Antibiotics for stomach infection)<br />A haversack to put all these things<br /><br /></p>
+          </div>
+          <br />
+          <br />
+
+          <div class="w3-container w3-card w3-white w3-round w2-margin"><br>
+            <img src="../../../images/group.jpg" alt="Group Name" class="w3-left w3-circle w3-margin-right" style="width:60px">
+            <span class="w3-center w3-opacity">Trekking Organization</span>
+            <h4>Shikharvedh</h4><br>
+            <p>SHIKHAR VEDH - 'SV' is an organisation open for all enthusiasts who just love adventures, had an eye for exploring known & unknown path, passion for Treks.</p>
+            <hr class="w3-clear">
+            <p style="text-align: center;">वेड लावतो सर्वांना सह्याद्रीचा कडा,<br />
+              सर करण्यास महाराष्ट्राचा प्रत्येक गड अन किल्ला,<br />
+              रोखुनी नजर शिखराकडे पाहतो प्रत्येक जन येत जाता,<br />
+              पण शिखर वेध लाभले ज्याला, त्याने गाठले शिखराला<br />
+              –शिखर वेध</p><br />
+            <p><b>Website</b>: <a href="http://www.shikharvedh.org/">http://www.shikharvedh.org/</a></p>
+            <p><b>Email</b>: shikharvedh@gmail.com</p>
+            <p><b>Contact</b>: Jagdish Patil: 9702121373 / 9869369836</p>
+            <p><b>Facebook Group</b>: <a href="Facebook Group: https://www.facebook.com/groups/shikharvedh/">https://www.facebook.com/groups/shikharvedh/</a></p>
+          </div>
             <!--============================================================= -->
 
 
@@ -214,6 +328,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="../../../js/google-map.js"></script>
     <script src="../../../js/main.js"></script>
+    <script src="../../../js/slideshow.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
