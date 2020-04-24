@@ -938,7 +938,7 @@ h3 {
 
 /* line 72, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
-  padding: 12px 0;
+  padding: 1px 0;
   position: relative;
 }
 
@@ -1127,14 +1127,14 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 210, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
-    padding: 10px 10px;
+    padding: 1px 1px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 210, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
-    padding: 10px 10px;
+    padding: 1px 1px;
   }
 }
 
