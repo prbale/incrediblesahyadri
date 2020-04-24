@@ -1752,6 +1752,12 @@ h3 {
   padding-bottom: 30px;
 }
 
+.bottom-logo {
+  border: 2px solid red;
+  padding: 1px;
+  border-radius: 10px 20px;
+}
+
 @media (max-width: 767px) {
   /* line 9, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_footer.scss */
   .footer .footer_top {
