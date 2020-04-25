@@ -2058,6 +2058,10 @@ h3 {
   background-image: url(../img/content/events/banner1.jpg);
 }
 
+.bradcam_bg_contact {
+  background-image: url(../img/content/events/banner1.jpg);
+}
+
 .bradcam_bg_1 {
   background-image: url(../img/banner/bradcam.png);
 }
@@ -2082,6 +2086,15 @@ h3 {
   background-size: cover;
   background-position: center center;
   padding: 175px 0;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.bradcam_area_contact_screen {
+  background-size: cover;
+  background-position: center center;
+  padding: 35px 0;
   background-repeat: no-repeat;
   position: relative;
   z-index: 0;
