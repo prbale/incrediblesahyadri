@@ -2117,6 +2117,10 @@ h3 {
   background-image: url(../img/content/temples/temple_banner.jpg);
 }
 
+.waterfall_banner {
+  background-image: url(../img/content/waterfalls/waterfall_banner.jpg);
+}
+
 .caves_banner {
   background-image: url(../img/content/caves/caves_banner.jpg);
 }
